@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply mt-24 text-5xl px-6 font-extrabold text-red-500 tracking-tight
+  }
+}
+
+@layer components {
+  .navLink {
+    @apply h-11 ml-4
+    inline-block px-3 py-2 border-2 border-primary text-primary font-medium leading-tight uppercase rounded
+    hover:bg-primary hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out
+  }
+}
