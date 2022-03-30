@@ -1,7 +1,14 @@
 <template>
   <div>
-    <nav class="relative w-full flex flex-wrap items-center justify-between py-0 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light">
+    <nav class="relative w-full flex flex-wrap items-center justify-between py-0 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-xl navbar-light">
       <div class="container-fluid w-full flex flex-wrap items-center justify-between pl-6">
+        <a class="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mr-8 ml-2" href="#">
+          <img
+            src="http://imovelbr.assys.dev.br/assets/logo.png"
+            style="height: 25px"
+            alt="logo da empresa"
+            loading="lazy">
+        </a>
         <button
           class="navbar-toggler text-gray-500 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
           type="button"
@@ -25,15 +32,8 @@
           </svg>
         </button>
         <div id="navbarSupportedContent" class="collapse navbar-collapse flex-grow items-center">
-          <a class="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1" href="#">
-            <img
-              src="http://imovelbr.assys.dev.br/assets/logo.png"
-              style="height: 25px"
-              alt=""
-              loading="lazy">
-          </a>
           <!-- Left links -->
-          <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto ml-16">
+          <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
             <li class="nav-item p-2">
               <a
                 class="navLink">
@@ -55,21 +55,20 @@
             </li>
           </ul>
           <!-- Left links -->
+          <!-- Right elements -->
+          <div class="flex items-center relative">
+            <div class="bg-primary h-16 text-gray-100 pt-4 px-8 py-8">
+              <span class="material-icons" style="vertical-align: -6px">flag</span>
+              <span class="font-display text-lg">Anuncie</span>
+            </div>
+            <div class="bg-primary h-16 text-gray-100 pt-4 px-8 py-8">
+              <span class="material-icons" style="vertical-align: -6px">account_circle</span>
+              <span class="font-display text-lg">Login</span>
+            </div>
+          </div>
+          <!-- Right elements -->
         </div>
         <!-- Collapsible wrapper -->
-
-        <!-- Right elements -->
-        <div class="flex items-center relative">
-          <div class="bg-primary h-24 p-8 text-gray-100">
-            <span class="material-icons" style="vertical-align: -6px">flag</span>
-            <span>Anuncie</span>
-          </div>
-          <div class="bg-primary h-24 p-8 text-gray-100">
-            <span class="material-icons" style="vertical-align: -6px">account_circle</span>
-            <span>Login</span>
-          </div>
-        </div>
-        <!-- Right elements -->
       </div>
     </nav>
   </div>
@@ -77,7 +76,7 @@
 
 <script>
 export default {
-  name: 'NavBar'
+
 }
 </script>
 
