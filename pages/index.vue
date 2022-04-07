@@ -2,7 +2,7 @@
   <div>
     <NavBar />
     <Main />
-    <Jumbotron />
+    <Jumbotron :urlbase="$store.state.urlBase" />
     <span>{{ renderedOn }} side</span>
   </div>
 </template>
