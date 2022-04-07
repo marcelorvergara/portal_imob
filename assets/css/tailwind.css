@@ -7,10 +7,10 @@
     @apply text-5xl px-6 font-extrabold text-red-500 tracking-tight
   }
   h2 {
-    @apply text-5xl px-6 font-extrabold text-gray-50 tracking-tight font-display
+    @apply text-5xl px-6 font-extrabold text-gray-100 tracking-tight font-display
   }
   h3 {
-    @apply text-4xl px-6 text-gray-100 font-display font-light
+    @apply text-3xl px-6 text-gray-200 font-display font-light
   }
 }
 
